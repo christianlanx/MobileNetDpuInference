@@ -25,15 +25,16 @@ Once that is finished, eject the SD card and insert it into the Ultra96-V2. Powe
 
 ## Step 3: Connect to the Pynq operating system
 There are a few ways to connect to Pynq.
-The default username and password on this system are `xilinx` : `xilinx`.
+The default username and password on this system are `xilinx`:`xilinx`.
 ### Windows and Mac
 Connect a USB cable to your PC and the Ultra96 micro-USB port. Windows will recognize the connected device as an ethernet adapter as well as a network storage device.
 You can connect to the Jupyter Notebook environment running on the Ultra96 from your PC or Mac by navigating to `192.168.3.1`. You can transfer files to-from the Ultra96 via the network storage device.
 ### Linux
 When tested on my system, there was no support for connecting the device as an ethernet adapter or network storage device. 
 However, if you know the local IP address of the Ultra96 you can ssh to it directly, using the default username and password.
-When connecting via SSH, the USB cable connection to the PC is not required. 
-You can make use of SSH to navigate the system, transfer files, and use tunneling to connect to the Jupyter Notebook environment.
+The system will have a dynamically assigned IP, and is also available via hosname `pynq`. E.g. `ssh xilinx@pynq.lan`.
+You can also connect to Jupyter Notebook by navigating your browser to `http://pynq.lan:9090`.
+When connecting via SSH, the USB cable connection to the PC is not required.
 
 ## Step 4: Prepare the project environment
 ### Windows and Mac
