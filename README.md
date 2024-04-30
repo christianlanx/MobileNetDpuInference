@@ -28,7 +28,7 @@ There are a few ways to connect to Pynq.
 The default username and password on this system are `xilinx`:`xilinx`.
 ### Windows and Mac
 Connect a USB cable to your PC and the Ultra96 micro-USB port. Windows will recognize the connected device as an ethernet adapter as well as a network storage device.
-You can connect to the Jupyter Notebook environment running on the Ultra96 from your PC or Mac by navigating to `192.168.3.1`. You can transfer files to-from the Ultra96 via the network storage device.
+You can connect to the Jupyter Notebook environment running on the Ultra96 from your PC or Mac by navigating to `192.168.3.1:9090`. You can transfer files to-from the Ultra96 via the network storage device.
 ### Linux
 When tested on my system, there was no support for connecting the device as an ethernet adapter or network storage device. 
 However, if you know the local IP address of the Ultra96 you can ssh to it directly, using the default username and password.
