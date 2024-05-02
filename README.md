@@ -44,6 +44,7 @@ When connecting via SSH, the USB cable connection to the PC is not required.
 1. Clone the repo directly on the board or copy it from your local host.
 
 ## Step 5: Running the Demo
+1. Install the required Python libraries by opening a terminal in Jupyter. Use the following command `pip install -r requirements.txt`. Note, this will not work without an internet connection.
 1. In Jupyter, navigate to the demo notebook and simply execute the cells in order to prepare the model and run inference.
 
 ## References
