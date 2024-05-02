@@ -49,8 +49,13 @@ When connecting via SSH, the USB cable connection to the PC is not required.
 
 ## References
 [1] Vitis AI: https://www.xilinx.com/products/design-tools/vitis/vitis-ai.html
+
 [2] AMD PYNQ: https://www.pynq.io/
+
 [3] DPU-PYNQ: https://github.com/Xilinx/DPU-PYNQ
+
 [4] MPII Human Pose Database: http://human-pose.mpi-inf.mpg.de/
+
 [5] MobilePose: https://github.com/YuliangXiu/MobilePose
+
 [6] MobileNetV2: https://arxiv.org/abs/1801.04381
